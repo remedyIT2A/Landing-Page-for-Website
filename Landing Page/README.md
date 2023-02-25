@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ohlasweeties by Rem</title>
+</head>
+<style>
+    body {
+  background-color: #FFFFFF;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #111;
+  line-height: 24px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #c33b52;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav {
+  width: 101%;
+  height: 60px;
+  background-color: #FFC0CB;
+}
+
+nav .wrapper {
+  height:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav ul li {
+  list-style: none;
+  float: left;
+}
+
+nav ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFE0;
+  text-decoration: none;
+  padding: 0 16px;
+  text-transform: uppercase;
+}
+nav p {
+  color: #752431;
+  font-size: 200%;
+  text-align: left;
+}
+
+nav ul li a:hover {
+  color: #e33a56;
+}
+
+section {
+  background-color: #fff;
+  width: 94%;
+  padding: 20px 3%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 99%;
+  padding: 50px;
+  height: 1500px;
+  border-style: inset;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.desc {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  text-align: left;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+.unique {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.p1 {
+  text-align: center;
+  font-size: 130%;
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+.p2 {
+  text-align: justify;
+  font-size: 130%;
+}
+
+</style>
+<body>
+<nav>
+    <div class="wrapper">
+      <a><p>Ohlasweeties by Rem</p></a>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+      </ul>
+    </div>
+    <br>
+  </nav>
+  <img src="ohlasweets.gif" alt="gif" style="width:1520px;height:400px;">
+<div class="clearfix">
+  <div class="box" style="background-color: #FFC0CB">
+  <h2>Ice Cream Cakes</h2>
+  <p class="desc">Our ice cream cake is a delectable combination 
+    of layers of moist cake and rich, creamy ice cream that is sure to delight your taste buds.
+    With its unbeatable combination of cake and ice cream, our ice cream cake is a dessert 
+    that everyone will love and is sure to leave a lasting impression on your taste buds.<br><br>
+    Our ice cream cake comes in a variety of mouth-watering flavors, including <i>Kitkat, 
+    Oreo, Coffee Crumble and Black Forest</i>. We also offer unique flavors like <i>Strawberry Puree, 
+    Mango Slush, Blueberry and Avocado</i>.</p> 
+  <div class="row">
+    <div class="column">
+      <p class="p1">KitKat </p>
+      <img src="kitkat.jpg">
+    </div>
+    <div class="column">
+      <p class="p1">Oreo Cookies </p>
+      <img src="oreo.jpg">
+    </div>
+    <div class="column">
+      <p class="p1">Coffee Crumble </p>
+      <img src="coffee.jpg">
+    </div>
+    <div class="column">
+      <p class="p1">Black Forest </p>
+      <img src="blackforest.jpg">
+    </div>
+    <div class="unique">
+      <p class="p1">Strawberry Puree </p>
+      <img src="strawberry.jpg">
+    </div>
+    <div class="unique">
+      <p class="p1">Mango Slush</p>
+      <img src="mango.jpg">
+    </div>
+    <div class="unique">
+      <p class="p1">Blueberry</p>
+      <img src="blueberry.jpg">
+    </div>
+    <div class="unique">
+      <p class="p1">Avocado</p>
+      <img src="avocado.jpg">
+    </div>
+  </div>
+  </div>
+  <div class="box" style="background-color:#FAEBD7">
+  <h2>Cookies</h2>
+  <p class="desc">Welcome to our cookie collection! Our freshly baked cookies 
+    are made from the highest quality ingredients and are sure to satisfy your sweet tooth. 
+    Each cookie is carefully crafted to deliver the perfect balance of flavor and texture. <br><br>
+    Whether you're looking for a sweet snack or a special treat for a celebration, our cookies 
+    are the perfect choice. You can purchase our cookies online or in-store, and we also offer 
+    catering services for events and parties. Try our cookies today and experience the difference 
+    that high-quality ingredients and expert craftsmanship can make!</p> 
+    <div class="row">
+      <div class="column1">
+        <p class="p2">Chewy Chocolate Chips </p>
+        <img src="choco.jpg">
+      </div>
+      <div class="column1">
+        <p class="p2">Soft and Chewy Oatmeal </p>
+        <img src="oats.jpg">
+      </div>
+      <div class="column1">
+        <p class="p2">White Chips Japanese Matcha</p>
+        <img src="matcha.jpg">
+      </div>
+      <div class="column1">
+        <p class="p2">Red Velvet</p>
+        <img src="redvelvet.jpg">
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
